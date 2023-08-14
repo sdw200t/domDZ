@@ -1,4 +1,4 @@
-class Hole {
+export class Hole {
   constructor(element) {
     this._element = element;
     this.holeAll = element.querySelectorAll(".hole");
