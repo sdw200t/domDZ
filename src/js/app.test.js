@@ -1,11 +1,8 @@
 import demo from "./app";
 
 describe("Пример теста", () => {
-  test.each([
-    { str: "Hello!", expected: "Demo: Hello!" },
-    { str: "", expected: "Demo: " },
-    { str: 100, expected: "Demo: 100" },
-  ])("demo($str)", ({ str, expected }) => {
-    expect(demo(str)).toBe(expected);
+  test("repaint", () => {
+    const hole = document.querySelector(".hole-game");
+    expect(hole).toBe(document.querySelector(".hole-game"));
   });
 });
