@@ -1,9 +1,7 @@
 /** @type {import('jest').Config} */
-const config = {
+module.exports = {
   testEnvironment: "jsdom",
   testEnvironmentOptions: {
     customExportConditions: ["react-native"],
   },
 };
-
-module.exports = config;

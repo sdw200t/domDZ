@@ -10,14 +10,17 @@
     "sourceType": "module"
   },
   "rules": {
-    "no-unused-vars": "warn"
+    "no-unused-vars": "warn",
+    "no-undef": "off" 
   },
   "overrides": [
     {
       "files": ["**/*.test.js"],
       "plugins": ["jest"],
       "extends": ["plugin:jest/recommended"],
-      "rules": { "jest/prefer-expect-assertions": "off" }
+      "rules": { 
+        "jest/prefer-expect-assertions": "off"
+      }
     }
   ]
 }

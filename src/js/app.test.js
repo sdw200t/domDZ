@@ -1,5 +1,3 @@
-import demo from "./app";
-
 describe("Пример теста", () => {
   test("repaint", () => {
     const hole = document.querySelector(".hole-game");
