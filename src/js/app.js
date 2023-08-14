@@ -1,3 +1,4 @@
+import { Hole } from './mole-game/mole-game.js'
 
 document.addEventListener('DOMContentLoaded', () => {
   
